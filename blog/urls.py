@@ -19,4 +19,5 @@ urlpatterns = [
     path('get_all_tag', views.get_all_tag),
     path('get_all_link', views.get_all_link),
     path('get_banner', views.get_banner),
+    path('get_article', views.get_article),
 ]
