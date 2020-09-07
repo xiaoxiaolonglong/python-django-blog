@@ -20,4 +20,5 @@ urlpatterns = [
     path('get_all_link', views.get_all_link),
     path('get_banner', views.get_banner),
     path('get_article', views.get_article),
+    path('get_detail', views.get_detail),
 ]
