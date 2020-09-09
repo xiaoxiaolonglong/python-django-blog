@@ -21,6 +21,7 @@ from django.views.static import serve
 from blog import views
 
 urlpatterns = [
+    path('', views.index),
     path('admin/', admin.site.urls),
     path('blog/', include('blog.urls')),
     path('ueditor/', include('DjangoUeditor.urls')),  # 添加DjangoUeditor的URL
